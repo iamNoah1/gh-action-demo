@@ -1,0 +1,21 @@
+{
+  "name": "gh-action-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamNoah1/gh-action-demo.git"
+  },
+  "author": "iamnoah1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamNoah1/gh-action-demo/issues"
+  },
+  "homepage": "https://github.com/iamNoah1/gh-action-demo#readme",
+  "devDependencies": {}
+}
