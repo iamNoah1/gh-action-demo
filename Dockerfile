@@ -9,4 +9,6 @@ RUN ls -la
 
 COPY . .
 
+RUN ls -la
+
 CMD [ "node", "main.js" ]
