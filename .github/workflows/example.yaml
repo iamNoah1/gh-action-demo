@@ -9,8 +9,6 @@ jobs:
     - name: run demo gh action
       id: demo-action
       uses: iamNoah1/gh-action-demo@master
-      with:
-        api_token: "superSecretToken"
 
     - name: echo output var
       run: echo "${{ steps.demo-action.outputs.output-var }}"
