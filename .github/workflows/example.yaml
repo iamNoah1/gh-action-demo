@@ -13,4 +13,4 @@ jobs:
         api_token: 'superSecretToken'
 
     - name: echo output var
-      run: echo "${{ steps.demo-action.outputs.output-var }}"
+      run: echo "${{ steps.demo-action.outputs.output_var }}"
