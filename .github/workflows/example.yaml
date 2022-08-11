@@ -10,7 +10,7 @@ jobs:
       id: demo-action
       uses: iamNoah1/gh-action-demo@master
       with:
-        api-token: superSecretToken
+        api_token: "superSecretToken"
 
     - name: echo output var
-      run: echo ${{ steps.demo-action.outputs.output-var }}
+      run: echo "${{ steps.demo-action.outputs.output-var }}"

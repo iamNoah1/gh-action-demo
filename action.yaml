@@ -2,14 +2,14 @@ name: 'GH Node Action'
 description: 'Braindead example'
 author: 'Noah Ispas'
 inputs:
-  api-token:
+  api_token:
     required: false
     description: 'Some API token'
 outputs:
-  output-var:
+  output_var:
     description: 'Some output variable'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.api-token}}
+    - ${{ inputs.api_token}}
