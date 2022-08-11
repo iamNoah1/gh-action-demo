@@ -1,11 +1,9 @@
-FROM node:16
+FROM golang:1.18.3-alpine3.16
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY package*.json ./
+COPY ./ ./
 
-RUN npm install
+RUN go build -o /bin/app main.go
 
-COPY . .
-
-CMD [ "node", "main.js" ]
+ENTRYPOINT ["app"]
